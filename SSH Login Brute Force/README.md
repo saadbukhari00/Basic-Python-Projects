@@ -80,12 +80,6 @@ args = parser.parse_args()
      print(f"[!] An error occurred: {str(e)}")
    ```
 
-### Example:
-
-
-
-
-
 
 ## Potential Improvements
 - Extend the script to support additional hash algorithms like MD5 or SHA-1.
