@@ -20,8 +20,27 @@ To run the port scanner, use the following command:
 
 ```bash
 python3 scanner.py <ip> <start_port> <end_port> [-v]
+```
 
-<ip>: The target IP address or hostname you want to scan.
-<start_port>: The starting port number of the range to scan.
-<end_port>: The ending port number of the range to scan.
--v (Optional): Add this flag for verbose mode to display closed ports.
+- ip: The target IP address or hostname you want to scan.
+- start_port: The starting port number of the range to scan.
+- end_port: The ending port number of the range to scan.
+- -v (Optional): Add this flag for verbose mode to display closed ports.
+
+## How It Works
+1. The script translates the provided hostname to an IP address.
+2. It scans each port in the specified range using TCP connection attempts.
+3. If the connection is successful, it reports the port as open; otherwise, it reports the port as closed if the verbose flag is set.
+4. Handles common exceptions such as invalid hostname or connection errors.
+
+
+## Potential Improvements
+- Add features like saving results to a file.
+- Implement additional scan types (e.g., UDP scans).
+- Enhance error handling and reporting.
+
+## Contributing
+Feel free to submit issues or pull requests for improvements.
+
+## Contact
+For any questions or feedback, you can reach me at **syed4000saad@gmail.com**
