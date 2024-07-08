@@ -33,6 +33,15 @@ python3 scanner.py <ip> <start_port> <end_port> [-v]
 3. If the connection is successful, it reports the port as open; otherwise, it reports the port as closed if the verbose flag is set.
 4. Handles common exceptions such as invalid hostname or connection errors.
 
+### Example
+- Scanning With Verbose Mode enabled <br>
+![portscanner1](https://github.com/syedsaad2005/Basic-Python-Projects/assets/142715489/8871427d-7599-4127-8f84-e7c68b96a66a)
+- Scanning Without Verbose Mode enabled <br>
+![portscanner2](https://github.com/syedsaad2005/Basic-Python-Projects/assets/142715489/f8c24149-270c-4354-ae54-aad003be18f2)
+
+
+
+
 
 ## Potential Improvements
 - Add features like saving results to a file.
